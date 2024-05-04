@@ -1,0 +1,38 @@
+todo-server/dist
+todo-server/node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+todo-client/node_modules
+todo-client/.pnp
+todo-client/.pnp.js
+todo-client/.yarn/install-state.gz
+
+# testing
+todo-client/coverage
+
+# next.js
+todo-client/.next/
+todo-client/out/
+
+# production
+todo-client/build
+
+# misc
+todo-client/.DS_Store
+todo-client/*.pem
+
+# debug
+todo-client/npm-debug.log*
+todo-client/yarn-debug.log*
+todo-client/yarn-error.log*
+
+# local env files
+todo-client/.env*.local
+
+# vercel
+todo-client/.vercel
+
+# typescript
+todo-client/*.tsbuildinfo
+todo-client/next-env.d.ts
